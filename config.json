@@ -1,0 +1,10 @@
+{
+  "cpu_threshold": 40,
+  "memory_threshold": 20,
+  "check_interval": 5,
+  "email_to": "pathaniaaryan03@gmail.com",
+  "email_from": "aryanpathania179@gmail.com",
+  "email_password": "lsov tujo ytvy gbqg",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587
+}

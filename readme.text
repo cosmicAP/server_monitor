@@ -1,0 +1,27 @@
+                                                ################ SIMPLE CLI TO CHECK LOW STORAGE ON SYSTEM ###############
+                                                
+                                                
+                                               
+A lightweight Python-based command-line tool that continuously monitors system CPU and memory usage, logs performance metrics, and sends automated email alerts when usage exceeds configurable thresholds.
+
+## 🔧 Features
+
+- Monitors **CPU** and **Memory** usage in real-time
+- Sends **email notifications** when usage exceeds defined limits
+- Logs resource data and alerts to a log file
+- Customizable thresholds, intervals, and email settings
+- Designed for **cron job** or background service execution
+
+## 📦 Requirements
+
+- Python 3.6+
+- Packages:
+  - `psutil`
+  - `smtplib` (standard library)
+  - `email` (standard library)
+
+Install `psutil` if not already available:
+
+```bash
+pip install psutil
+
